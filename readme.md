@@ -20,8 +20,7 @@ Create a folder named data inside your project directory.
 Add your documents (text files, PDFs, or any other supported format) to the data folder.
 Example directory structure:
 
-kotlin
-Copy code
+```
 project_directory/
 ├── data/
 │   ├── document1.txt
@@ -30,6 +29,7 @@ project_directory/
 ├── requirements.txt
 ├── test.ipynb
 └── ...
+```
 Supported Document Formats:
 You can use `.txt` for plain text, `.pdf` for PDF documents, or any other format supported by the document processing functions in your project.
 If you’re working with PDF files, ensure that the appropriate library (like `PyMuPDF`, `pdfminer`, or `PyPDF2`) is available in your environment to extract text.
@@ -41,12 +41,10 @@ Open the test.ipynb notebook in Jupyter Notebook or any other environment that s
 Locate the section where the query is defined and set the queryy variable to your desired query.
 
 Example:
-
-python
-Copy code
+```
 queryy = "What are the key features of RAG models?"
 The queryy variable is the input query for the RAG model, and it will be used to retrieve relevant documents from the ./data/ folder and then generate an answer based on the content.
-
+```
 4. Run the Code Blocks in test.ipynb
 Once you have your environment set up, documents added, and the query set, you can begin running the code blocks in the test.ipynb notebook.
 
