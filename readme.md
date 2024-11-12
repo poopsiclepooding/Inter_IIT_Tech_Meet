@@ -43,8 +43,9 @@ Locate the section where the query is defined and set the queryy variable to you
 Example:
 ```
 queryy = "What are the key features of RAG models?"
-The queryy variable is the input query for the RAG model, and it will be used to retrieve relevant documents from the ./data/ folder and then generate an answer based on the content.
 ```
+The queryy variable is the input query for the RAG model, and it will be used to retrieve relevant documents from the ./data/ folder and then generate an answer based on the content.
+
 ### 4. Run the Code Blocks in test.ipynb
 Once you have your environment set up, documents added, and the query set, you can begin running the code blocks in the test.ipynb notebook.
 
